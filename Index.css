@@ -7,7 +7,7 @@ body {
 }
 
 #title {
-  color: aqua;
+  color: rgb(0, 102, 255);
   position: absolute;
   left: 300px;
   margin-top: 5px;
@@ -29,10 +29,6 @@ body {
   color: blueviolet;
 }
 
-.bn:hover {
-  text-decoration: underline;
-}
-
 div {
   margin: auto;
   padding: 10px;
@@ -41,14 +37,15 @@ div {
   position: absolute;
   top: 165px;
   bottom: 10px;
+  border-radius: 20px;
 }
 .rcb {
-  background-image: url(../Images/rcbLogo.jpg);
+  background-image: url(./Images/rcbLogo.jpg);
   left: 50px;
 }
 
 .csk {
-  background-image: url(../Images/cskLogo.jpg);
+  background-image: url(./Images/cskLogo.jpg);
   right: 50px;
 }
 
