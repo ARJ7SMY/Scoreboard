@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#title {
+  color: aqua;
+  position: absolute;
+  left: 300px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: border-radius 1s, color 1s;
+}
+
+#title:hover {
+  opacity: 0.5;
+  border-radius: 40px;
+  font-weight: bolder;
+  color: red;
+}
+
+#title:active {
+  color: blueviolet;
+}
+
+.bn:hover {
+  text-decoration: underline;
+}
+
+div {
+  margin: auto;
+  padding: 10px;
+  background-size: cover;
+  width: 79vh;
+  position: absolute;
+  top: 165px;
+  bottom: 10px;
+}
+.rcb {
+  background-image: url(../Images/rcbLogo.jpg);
+  left: 50px;
+}
+
+.csk {
+  background-image: url(../Images/cskLogo.jpg);
+  right: 50px;
+}
+
+#vs {
+  position: absolute;
+  left: 650px;
+  top: 250px;
+  color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 4em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 6em;
+  background-color: rgb(226, 177, 43);
+  width: 17vh;
+  text-align: center;
+  border-radius: 60px;
+}
+
+button {
+  border: 4px solid white;
+  border-radius: 50px;
+  border-color: white;
+  font-size: xx-large;
+  margin: 5px;
+}
+
+.appeal {
+  background-color: rgb(236, 232, 26);
+}
+
+.look {
+  background-color: rgb(236, 26, 26);
+}
+
+button:hover {
+  color: white;
+  border-color: black;
+}
